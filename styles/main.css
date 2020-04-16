@@ -3,20 +3,30 @@
     src: url(../fonts/FranklinGothic.ttf);
 }
 
-.mainLinks {
-    /* Div containing the main links */
+.index-body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
 
+.mainLinks {
+    /* Div containing the main links */
+    display: flex;
+    flex-direction: column;
+}
+
 .mainLinks a {
     /* The main links in that div */
     font-family: 'FranklinGothic', Arial, sans-serif;
-    font-size: 15vh;
-    padding: 3vh;
+    font-size: 13vh;
+    padding-bottom: 6vh;
+}
+
+.name p {
+    font-family: "Courier";
+    margin-top: 1vh;
+    margin-bottom: 5vh;
 }
 
 .photo-page {
@@ -43,4 +53,8 @@
 .photo-link a {
     font-family: 'FranklinGothic', Arial, sans-serif;
     font-size: 5vh;
+}
+
+#amateur {
+    max-width: 650px;
 }
