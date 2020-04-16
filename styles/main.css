@@ -25,7 +25,6 @@
 
 .name>p {
     font-family: "Courier";
-    margin-top: 1vh;
     margin-bottom: 5vh;
     margin-left: .6vh;
     font-size: 3vh
@@ -64,5 +63,5 @@
 }
 
 #amateur {
-    max-width: 650px;
+    max-width: 710px;
 }
