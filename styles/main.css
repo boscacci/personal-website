@@ -22,7 +22,7 @@
 .photo-page {
     /* Div containing the whole photos page */
     display: flex;
-    width: 68%;
+    width: 78%;
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
@@ -33,6 +33,7 @@
 .photo-page img {
     max-width: 95vw;
     max-height: 95vh;
+    padding: .8vh;
 }
 
 .photo-link {
