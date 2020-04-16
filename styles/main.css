@@ -1,36 +1,45 @@
 @font-face {
     font-family: FranklinGothic;
     src: url(../fonts/FranklinGothic.ttf);
-  }
-
-a { 
-    font-size: 10vh;
-    font-family: "FranklinGothic";
 }
 
-.frontpage {
+.mainLinks {
+    /* Div containing the main links */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.mainLinks a {
+    /* The main links in that div */
+    font-family: 'FranklinGothic', Arial, sans-serif;
+    font-size: 15vh;
+    padding: 3vh;
+}
+
+.photo-page {
+    /* Div containing the whole photos page */
+    display: flex;
+    width: 68%;
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-img {
-    display: block;
+.photo-page img {
     max-width: 95vw;
     max-height: 95vh;
-    margin: auto;
 }
 
-.photo-header {
-    margin-top: 5vh;
+.photo-link {
+    padding-top: 1vh;
 }
 
 .photo-link a {
-    display: block;
-    font-size: 3vh;
-    text-align: center;
+    font-family: 'FranklinGothic', Arial, sans-serif;
+    font-size: 5vh;
 }
