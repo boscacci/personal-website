@@ -14,22 +14,21 @@
     /* Div containing the main links */
     display: flex;
     flex-direction: column;
-    /* margin-bottom: -2vh; */
 }
 
-.mainLinks a {
+.mainLinks>a {
     /* The main links in that div */
     font-family: 'FranklinGothic', Arial, sans-serif;
-    font-size: 18vw;
+    font-size: 10vh;
     padding-bottom: 6vh;
 }
 
-.name p {
+.name>p {
     font-family: "Courier";
     margin-top: 1vh;
     margin-bottom: 5vh;
     margin-left: .6vh;
-    font-size: 5vw
+    font-size: 3vh
 }
 
 .photo-page {
@@ -43,13 +42,13 @@
     align-items: center;
 }
 
-.photo-page img {
+.photo-page>img {
     max-width: 95vw;
     max-height: 95vh;
     padding: .8vh;
 }
 
-.photo-page p {
+.photo-page>p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -57,7 +56,7 @@
     padding-top: 1vh;
 }
 
-.photo-link a {
+.photo-link>a {
     display: flex;
     font-family: 'FranklinGothic', Arial, sans-serif;
     font-size: 5vh;
