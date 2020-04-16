@@ -14,12 +14,13 @@
     /* Div containing the main links */
     display: flex;
     flex-direction: column;
+    /* margin-bottom: -2vh; */
 }
 
 .mainLinks a {
     /* The main links in that div */
     font-family: 'FranklinGothic', Arial, sans-serif;
-    font-size: 13vh;
+    font-size: 18vw;
     padding-bottom: 6vh;
 }
 
@@ -28,6 +29,7 @@
     margin-top: 1vh;
     margin-bottom: 5vh;
     margin-left: .6vh;
+    font-size: 5vw
 }
 
 .photo-page {
@@ -47,13 +49,19 @@
     padding: .8vh;
 }
 
+.photo-page p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .photo-link {
     padding-top: 1vh;
 }
 
 .photo-link a {
+    display: flex;
     font-family: 'FranklinGothic', Arial, sans-serif;
     font-size: 5vh;
+    padding: 1vh;
 }
 
 #amateur {
