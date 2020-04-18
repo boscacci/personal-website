@@ -1,6 +1,5 @@
 # robertboscacci.com
 
-A simple HTML / CSS / JS portfolio website. 
+My super duper simple HTML / CSS / JS portfolio website.
 
-* No node / react
-* Not even typescript, oops
+Includes a nifty git hook: Upon git push, it also pushes up to the s3 bucket serving the site.
